@@ -1,0 +1,352 @@
+hr
+{
+    color: aliceblue;
+}
+body
+{
+    background-color: black;
+}
+.container
+{
+    margin: 0%;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-areas: 
+    'aside main main main main'
+    'footer footer footer footer footer';
+}
+.aside
+{
+    margin: 2px;
+    grid-area: aside;
+    background-color: #111111;
+    width: 300px;
+    padding: 10px;
+    height: auto;
+}
+.proimg
+{
+    width: 100px;
+    margin-top: 10px;
+}
+.head
+{
+    color: aliceblue;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    align-items: center;
+    font-size: 12px;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    border: solid 3px rgb(230, 89, 37);
+    border-radius: 10px;
+}
+.container .aside .head h2
+{
+    color: rgb(230, 89, 37);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    position: relative;
+    right: 15px;
+    bottom: 15px;
+    font-style: italic;
+}
+.content
+{
+    color: aliceblue;
+    text-align: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 30px;
+}
+.main
+{
+    grid-area: main;
+    background-color:  rgb(10, 9, 9);
+    margin: 0%;
+    padding-bottom: 30px;
+    height: auto;
+}
+.c2
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: auto;
+    margin-top: 30px;
+    margin: 50px 0;
+}
+#c21 
+{
+    border: 3px solid rgb(214, 110, 13);
+    border-radius: 50%;
+    padding: 2px 10px;
+    margin: auto;
+    color: aliceblue;
+    font-size: 15px;
+    font-weight: 400;
+}
+#c22 
+{
+    border: 3px solid rgb(214, 110, 13);
+    border-radius: 50%;
+    margin: auto;
+    padding: 0px 8px;
+    color: aliceblue;
+    font-size: 15px;
+    font-weight: 400;
+}
+#c23 
+{
+    border: 3px solid rgb(214, 110, 13);
+    border-radius: 50%;
+    margin: auto;
+    padding: 0px 8px;
+    color: aliceblue;
+    font-size: 15px;
+    font-weight: 400;
+}
+.c3
+{
+    padding: 10px;
+    color: aliceblue;
+    margin: 55px 0;
+}
+.c3 .bars .bar  
+{
+    display: block;
+    width: 100%;
+    height: 8px;
+    background-color: black;
+    border-radius: 30px;
+    position: relative;
+}
+.c3 span
+{
+    position: absolute;
+    content: " ";
+    width: 95%;
+    height: 7px;
+    top: 0;
+    background-color:  rgb(214, 110, 13);
+    border-radius: 40px;
+}
+.c3 .span1
+{
+    position: absolute;
+    content: " ";
+    width: 85%;
+    height: 7px;
+    top: 0;
+    background-color:  rgb(214, 110, 13);
+    border-radius: 40px; 
+}
+.c3 .span2
+{
+    position: absolute;
+    content: " ";
+    width: 75%;
+    height: 7px;
+    top: 0;
+    background-color:  rgb(214, 110, 13);
+    border-radius: 40px; 
+}
+.c3 .span3
+{
+    position: absolute;
+    content: " ";
+    width: 85%;
+    height: 7px;
+    top: 0;
+    background-color:  rgb(214, 110, 13);
+    border-radius: 40px; 
+}
+.p1
+{
+    position: relative;
+    bottom: 18px;
+}
+.c4
+{
+    margin: 50px 0;
+}
+.textcolor
+{
+    color: rgb(88, 82, 82);
+}
+.download
+{
+    color: rgb(88, 82, 82);
+    margin-top: 30px;
+}
+/* ---- ====== Head start ===== ----*/
+.first
+{
+    width: auto;
+    height: 400px;
+}
+.first1
+{
+    background-image: url('resimg1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    border-radius: 30px;    
+    height: 390px;
+    width: auto;
+    opacity: 0.1;
+    position: relative;
+}
+.first2
+{
+    background-image: url('resimg2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    border-radius: 30px;
+    width: auto;
+    height: 300px;
+    position: relative;
+    bottom: 350px;
+    opacity: 0.4;
+    margin: 0 30px 0 30px;
+}
+.first3
+{
+    position: relative;
+    bottom: 600px;
+    left: 70px;
+    color: aliceblue;
+
+}
+.container .main .first .first3 h1
+{
+    font-size: 50px;
+    line-height: 30px;
+}
+.span
+{
+    color:  rgb(214, 110, 13);
+}
+/* ----Head end----*/
+/*   ==== services ====    */
+.order
+{
+    color: rgb(214, 110, 13);
+}
+h2
+{
+    color: aliceblue;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+h4
+{
+    color: aliceblue;
+}
+.service
+{
+    display: grid;
+    grid-template-areas: 
+    's1 s2 s3'
+    's4 s5 s6';
+    background-color: rgb(10, 9, 9);
+    padding: 0 10px;
+}
+.s1 ,.s2,.s3,.s4,.s5,.s6
+{
+    background-color: rgb(29, 28, 28);
+    margin: 15px;
+    border-radius: 20px;
+    padding: 0 20px;
+}
+/* footer start */
+.foot
+{
+    width: auto;
+    height: auto;
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
+.form
+{
+    border-radius: 30px;
+    height: 40px;
+    width: 300px;
+    margin: 12px;
+    background-color:rgb(22, 21, 21);
+    text-align: center;
+    font-weight: 500;
+    border: 2px solid rgb(66, 65, 65);
+}
+#subject
+{
+    width: 650px;
+    margin: 20px 0;
+}
+.mess
+{
+    border-radius: 30px;
+    margin: 12px 0 50px;
+    width: 250px;
+    background-color:rgb(22, 21, 21);
+    text-align: center;
+    font-weight: 500;    
+    border: 2px solid rgb(66, 65, 65);
+    margin-bottom: 30px;
+    position: relative;
+    left: 65px;
+}
+.btn
+{
+    border: 1px solid black;
+    border-radius: 35px;
+    background-color:  rgb(214, 110, 13);
+    padding: 10px;
+    width: 120px;
+    font-weight: 510;
+    position: relative;
+    right: 130px;
+    top: 25px;
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+    transition: all 0.8s ease-in-out;
+    color: rgb(58, 55, 55);
+    font-size: 18px;
+    cursor: pointer;
+}
+.btn:hover
+{
+    font-weight: 600;
+    background-color: aliceblue;
+    color: black;
+}
+a:link
+{
+    text-decoration: dotted;
+    font-style: italic;
+    color: aliceblue;
+}
+.social
+{
+    color: aliceblue;
+    margin-top: 70px;
+}
+.link1
+{
+    color: aliceblue;
+    transition: all 0.5s ease-in-out;
+}
+.link1:hover
+{
+    color: rgb(51, 49, 49);
+    font-weight: 800;
+}
+.cp
+{
+    margin-right: 3px;
+    color: rgb(54, 52, 52);
+}
